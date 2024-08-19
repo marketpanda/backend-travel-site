@@ -5,7 +5,7 @@ dotenv.config()
  
 // const DB_HOST_LOCAL = process.env.DB_HOST_LOCAL
 const DB_HOST_LOCAL = 'localhost2'
- 
+// test deploy
 let sequelize
 
 if (DB_HOST_LOCAL === 'localhost') {
