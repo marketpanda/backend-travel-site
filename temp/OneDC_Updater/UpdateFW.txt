@@ -1,6 +1,0 @@
-2024/08/16 15:28:42.271Enter UpdateOmApSvcBroker
-2024/08/16 15:28:42.287local_OmApSvcBroker_Version : 1.0.2101.1901
-2024/08/16 15:28:43.820local_OmApSvcBroker_Version after replacement: 1.0.2407.0302
-2024/08/16 15:28:44.168Execute OmApSvcBroker
-2024/08/16 15:28:44.168HofixVersion[1] : 0045
-2024/08/16 15:28:44.168HofixVersion[1] : 0045
