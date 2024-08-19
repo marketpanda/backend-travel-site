@@ -1,0 +1,144 @@
+{
+    "places": [
+      {
+        "city": "Manila",
+        "attractions": [
+          {
+            "name": "Rizal Park",
+            "description": "A historical park featuring the Rizal Monument and beautiful gardens.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5826481, 120.9759331] 
+            },
+            "images": [
+              "https://www.hlimg.com/images/things2do/738X538/201c_1537876432t.jpg"
+            ]
+
+          },
+          {
+            "name": "Intramuros",
+            "description": "The historic walled city of Manila, known for its Spanish colonial architecture.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5905088, 120.9729374]
+            },
+            "images": [
+              "https://outoftownblog.com/wp-content/uploads/2020/10/Cathedral-of-Manila-via-Depositphotos.jpg"
+            ]
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Tasty Delights",
+            "description": "A fusion of international cuisines with a view of Rizal Park.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5832481, 120.9768331]
+            }
+          },
+          {
+            "name": "Casa Española",
+            "description": "Authentic Spanish dishes in the heart of Intramuros.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5900088, 120.9724374]
+            }
+          },
+          {
+            "name": "Flavors of Manila",
+            "description": "Local and regional specialties with a modern twist.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5838481, 120.9766331]
+            }
+          },
+          {
+            "name": "Mango Tango",
+            "description": "Refreshing fruit-based desserts and beverages.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5899088, 120.9726374]
+            }
+          }
+        ],
+        "accommodations": [
+          {
+            "name": "Rizal View Hotel",
+            "description": "A luxurious hotel with a scenic view of Rizal Park.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5831481, 120.9769331]
+            }
+          },
+          {
+            "name": "Intramuros Inn",
+            "description": "Cozy and affordable accommodations in the heart of Intramuros.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5899088, 120.9727374]
+            }
+          },
+          {
+            "name": "Manila Breeze BnB",
+            "description": "A comfortable bed and breakfast near Flavors of Manila.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5837481, 120.9767331]
+            }
+          },
+          {
+            "name": "Tranquil Transients",
+            "description": "Peaceful transient house with easy access to Mango Tango.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [14.5902088, 120.9729374]
+            }
+          }
+        ]
+        
+      },
+      {
+        "city": "Cebu City",
+        "attractions": [
+          {
+            "name": "Magellan's Cross",
+            "description": "A Christian cross planted by Ferdinand Magellan upon arriving in Cebu in 1521.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [123.877493, 10.303641]
+            }
+          },
+          {
+            "name": "Taoist Temple",
+            "description": "A picturesque temple known for its intricate architecture and stunning views of Cebu City.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [123.8871, 10.3440]
+            }
+          }
+        ]
+      },
+      {
+        "city": "Bohol",
+        "attractions": [
+          {
+            "name": "Chocolate Hills",
+            "description": "A natural wonder featuring more than 1,000 cone-shaped hills that turn brown during the dry season.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [124.1566, 9.7474]
+            }
+          },
+          {
+            "name": "Tarsier Sanctuary",
+            "description": "A conservation area for the adorable and endangered Philippine tarsier.",
+            "coordinates": {
+              "type": "Point",
+              "coordinates": [123.8995, 9.6415]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

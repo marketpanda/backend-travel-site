@@ -1,0 +1,193 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "location": "Manila",
+      "coords": [],
+      "name": "Rizal Park",
+      "image": "https://media.philstar.com/photos/2021/02/17/rizal-park_2021-02-17_13-04-12.jpg"
+    },
+    {
+      "id": 2,
+      "location": "Manila",
+      "coords": [],
+      "name": "National Museum",
+      "image": "https://2.bp.blogspot.com/-alxKBAz2GGM/WybBIQP434I/AAAAAAAAHHY/qA05w1zdIj0GKyabw_2M6a9M3Sa3qMrdgCLcBGAs/w1200-h630-p-k-no-nu/national-museum-of-natural-history.JPG"
+    },
+    {
+      "id": 3,
+      "location": "Manila",
+      "coords": [],
+      "name": "Intramuros",
+      "image": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_132921/20220902075537_O0hBH/jpg"
+    }
+  ],
+  "placesAndAttractions": [
+    {
+      "id": 1,
+      "name": "Rizal Park",
+      "cityProvince": "manila",
+      "cityId": 1,
+      "location": "Roxas Boulevard, Manila",
+      "address": "P.Ocampo St., Malate, Manila, 1004 Metro Manila",
+      "contactNumber": "+63 917 711 3926",
+      "coords": [
+        14.5835683,
+        120.9789589
+      ],
+      "description": "This premiere people's park boasts of world-class sculptures, historical markers, beautiful gardens, facilities for photo and art exhibits, event venues, and various forms of entertainment. This premiere people's park boasts of world-class sculptures, historical markers, beautiful gardens, facilities for photo and art exhibits,event venues, and various forms of entertainment. This premiere people's park boasts of world-class sculptures, historical markers, beautiful gardens, facilities for photo and art exhibits, event venues, and various forms of entertainment.",
+      "img": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_132921/20220902075537_O0hBH/jpg",
+      "imgs": []
+    },
+    {
+      "id": 2,
+      "name": "Intramuros",
+      "cityProvince": "manila",
+      "cityId": 1,
+      "location": "Roxas Boulevard, Manila",
+      "address": "Palacio del Gobernador corner Aduana Streets, General Luna St, Intramuros, Manila, Metro Manila",
+      "contactNumber": "+63 906 885 3965",
+      "coords": [
+        14.5902596,
+        120.9736562
+      ],
+      "description": "This premiere people's park boasts of world-class sculptures, historical markers, beautiful gardens, facilities for photo and art exhibits, event venues, and various forms of entertainment.",
+      "img": "https://ik.imagekit.io/tvlk/blog/2023/07/shutterstock_1906890529-2.jpg?tr=dpr-2,w-675",
+      "imgs": []
+    },
+    {
+      "id": 3,
+      "name": "National Museum",
+      "cityProvince": "manila",
+      "cityId": 1,
+      "location": "Taft Ave., Manila",
+      "address": "Teodoro F. Valencia Cir, Ermita, Manila, 1000 Metro Manila",
+      "contactNumber": "(02) 8298 1100",
+      "coords": [
+        14.5834697,
+        120.9818173
+      ],
+      "description": "This premiere people's park boasts of world-class sculptures, historical markers, beautiful gardens, facilities for photo and art exhibits, event venues, and various forms of entertainment.",
+      "img": "https://2.bp.blogspot.com/-alxKBAz2GGM/WybBIQP434I/AAAAAAAAHHY/qA05w1zdIj0GKyabw_2M6a9M3Sa3qMrdgCLcBGAs/w1200-h630-p-k-no-nu/national-museum-of-natural-history.JPG",
+      "imgs": []
+    },
+    {
+      "id": 4,
+      "name": "Tagaytay Picnic Grove",
+      "cityProvince": "cavite",
+      "cityId": 4,
+      "location": "Tagaytay, Cavite",
+      "address": "Purok 138, Barangay Neogan, Tagaytay City",
+      "contactNumber": "+63.918.899.2866",
+      "coords": [
+        14.1253062,
+        120.995435
+      ],
+      "description": "This premiere people's park boasts of world-class sculptures, historical markers, beautiful gardens, facilities for photo and art exhibits, event venues, and various forms of entertainment.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Taal_Lake_from_Tagaytay_Picnic_Grove.jpg/800px-Taal_Lake_from_Tagaytay_Picnic_Grove.jpg",
+      "imgs": []
+    },
+    {
+      "address": "Rizal",
+      "description": "Gets you closer to nature",
+      "email": "htaktak@gmail.com",
+      "landmark": "Rizal church",
+      "mustTry": "rapelling",
+      "placeName": "Hinulugang Taktak",
+      "role": "visitor",
+      "type": "typeAttraction",
+      "id": 5
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Aristocrat"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": 1,
+      "name": "Seaviews"
+    }
+  ],
+  "cityProvince": [
+    {
+      "id": 1,
+      "city": "manila",
+      "prominent": true
+    },
+    {
+      "id": 2,
+      "city": "cebu",
+      "prominent": true
+    },
+    {
+      "id": 3,
+      "city": "baguio",
+      "prominent": true
+    },
+    {
+      "id": 4,
+      "city": "cavite",
+      "prominent": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "",
+      "password": "",
+      "favorites": [],
+      "trips": [
+        {
+          "id": 1,
+          "name": "Rizal Park",
+          "img": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_132921/20220902075537_O0hBH/jpg",
+          "cityProvince": "manila"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "",
+      "password": "",
+      "favorites": [],
+      "trips": []
+    },
+    {
+      "id": 29,
+      "email": "",
+      "password": "",
+      "favorites": [],
+      "trips": [
+        {
+          "id": 4,
+          "name": "Tagaytay Picnic Grove",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Taal_Lake_from_Tagaytay_Picnic_Grove.jpg/800px-Taal_Lake_from_Tagaytay_Picnic_Grove.jpg",
+          "cityProvince": "cavite"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "email": "",
+      "password": "",
+      "favorites": [],
+      "trips": [
+        {
+          "id": 1,
+          "name": "Rizal Park",
+          "img": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_132921/20220902075537_O0hBH/jpg",
+          "cityProvince": "manila"
+        },
+        {
+          "id": 4,
+          "name": "Tagaytay Picnic Grove",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Taal_Lake_from_Tagaytay_Picnic_Grove.jpg/800px-Taal_Lake_from_Tagaytay_Picnic_Grove.jpg",
+          "cityProvince": "cavite"
+        }
+      ]
+    }
+  ]
+}
