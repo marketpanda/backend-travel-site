@@ -7,6 +7,7 @@ export const accommodations = async(req, res, next) => {
     res.status(200).send('list of accommodations')
 }
 
+//test deploy
 export const userAccommodations = async(req, res, next) => {
     const userId = req.query.userId;
 
