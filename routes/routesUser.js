@@ -7,8 +7,7 @@ const router = express.Router()
 
  
 
-router.get('/', authenticate, getUser) 
-// router.get('/', getUser) 
+router.get('/', authenticate, getUser)  
 
 // user trips edit
 router.patch('/', authenticate, updateUser) 

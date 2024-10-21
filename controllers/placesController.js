@@ -1,3 +1,47 @@
+/**
+ * @swagger
+ * components:
+ *  schemas:
+ *      Places:
+ *          type: object
+ *          required:
+ *              - places
+ *          properties:
+ *              places:
+ *                  type: string
+ *                  description: The name of city or province
+ */
+
+/**
+ * @swagger
+ * tags:
+ *  name: Place Destination
+ *  description: Places managing API
+ * /places?destination={destination}:
+ *  get:
+ *      summary: Returns list of tourist attractions based on city or province
+ *      tags: [Places]
+ *      parameters:
+ *        - in: query
+ *          name: destination
+ *          schema:
+ *              type: string
+ *          required: true
+ *          description: city or province
+ *      responses:
+ *          200:
+ *              description: The list of places in Watatrip app
+ *              content:
+ *                  application/json:
+ *                      schema:
+ *                          type: array
+ *                          items:
+ *                              $ref: '#/components/schemas/Places'
+ *          400:
+ *              description: Server error
+ *   
+ */
+
 import * as fs from 'fs'
 import Places from '../models/modelPlaces.js'
 import { createError } from '../utils/errors2.js'

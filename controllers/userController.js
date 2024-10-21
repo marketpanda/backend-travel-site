@@ -1,3 +1,64 @@
+/**
+ * @swagger
+ * components:
+ *  schemas:
+ *      User:
+ *          type: object
+ *          required:
+ *              - user
+ *          properties:
+ *              user:
+ *                  type: string
+ *                  description: The user
+ */
+
+/**
+ * @swagger
+ * tags:
+ *  name: User
+ *  description: User managing api
+ * /users?id={id}:
+ *  get:
+ *      summary: Returns a user from a provided ID
+ *      tags: [User]
+ *      parameters:
+ *        - in: query
+ *          name: id
+ *          schema:
+ *              type: string
+ *          required: true
+ *          description: id of a user
+ *      responses:
+ *          200:  
+ *              description: The user with provided ID
+ *              content:
+ *                  application/json:
+ *                      schema:
+ *                          type: string
+ *                          items:
+ *                              $ref: '#/components/schemas/Users'
+ *          400:  
+ *              description: No User id submitted
+ * /photos:
+ *  get:
+ *      summary: WIP, returns a picture
+ *      tags: [User]
+ *       
+ *      responses:
+ *          200:  
+ *              description: Photo of a user
+ *              content:
+ *                  application/json:
+ *                      schema:
+ *                          type: string
+ *                          items:
+ *                              $ref: '#/components/schemas/Users'
+ *          400:  
+ *              description: No User id submitted
+ *  
+ */
+
+
 import { get } from "https"
 import User from "../models/modelUser.js"
 import { createError } from "../utils/errors2.js" 

@@ -9,6 +9,9 @@ import fs from 'fs'
 
 import cookieParser from 'cookie-parser';
 
+import swaggerJSDoc from 'swagger-jsdoc';
+import swaggerui from 'swagger-ui-express'
+
 dotenv.config() 
   
 import routesAuth from './routes/routesAuth.js'
@@ -101,9 +104,36 @@ app.use('/mapbox', routesMapBox)
 
 
 //page not found
-app.use((req, res) => {
-    res.status(404).sendFile(path.join(__dirname, `${process.env.ENV_LOCAL}/public_html/src/404.html`))
-})
+// app.use((req, res) => {
+//     res.status(404).sendFile(path.join(__dirname, `${process.env.ENV_LOCAL}/public_html/src/404.html`))
+// })
+
+const swaggerOptions = {
+    definition: {
+        openapi: "3.0.0",
+        info: {
+            title: "Watatrip API Documentation",
+            version: "1.0",
+            description: "This documentation is for Watatrip Mobile App"
+        },
+        servers: [
+            {
+                url: "https://localhost:3003"
+            },
+            {
+                url: "https://139.162.8.143:3003"
+            }
+        ]
+    },
+    apis: ["./controllers/*.js"]
+}
+
+const swaggerInstance = swaggerJSDoc(swaggerOptions)
+app.use('/api-docs',
+    swaggerui.serve,
+    swaggerui.setup(swaggerInstance)
+)
+
 app.use((err, req, res, next) => {
     const errorStatus = err.status || 500
     const errorMessage = err.message || "Something went wrong"

@@ -80,7 +80,7 @@ export const editAccommodations = async(req, res, next) => {
     res.status(200).send('edit accommodation')
 }
 
-export const updateuserAccommodation = async(req, res, next) => {
+export const updateUserAccommodation = async(req, res, next) => {
     const userId = req.query.userId
     const bookingId = req.body.id
     
